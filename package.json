@@ -1,0 +1,25 @@
+{
+  "name": "TeamManager",
+  "version": "1.0.0",
+  "description": "Generates an HTML document displaying team member information gathered by terminal",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^8.0.0",
+    "jest": "^26.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stranded-Helix/TeamManager.git"
+  },
+  "keywords": [],
+  "author": "Garrett Fite",
+  "license": "GPL 3.0",
+  "bugs": {
+    "url": "https://github.com/Stranded-Helix/TeamManager/issues"
+  },
+  "homepage": "https://github.com/Stranded-Helix/TeamManager#readme"
+}
