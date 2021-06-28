@@ -1,4 +1,4 @@
-const helper = require("../lib/Helpers.js");
+const helper = require("../src/Helpers.js");
 
 describe ("checkName", () => {
     it("should return true if at least one character provided ", () => {

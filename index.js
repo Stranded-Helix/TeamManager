@@ -9,12 +9,12 @@ const html = ``;
 const teamMembers = [];
 
 const mainMenu = () => {
+    console.log("Enter the Manager's information");
     ManagerQuestion()
         .then((managerAnswers) => {
             teamMembers.push(new Manager(managerAnswers.name, managerAnswers.id, managerAnswers.email, managerAnswers.officeNumber))
         })
         .then(() => {
-            console.log(teamMembers);
             employeeMenu();
         })
 }
@@ -24,18 +24,18 @@ const employeeMenu = () => {
         .then(positionSelectAnswer => {
             switch (positionSelectAnswer.position) {
                 case "engineer":
+                    console.log("Enter the Engineer's information");
                     EngineerQuestion()
                         .then(engineerAnswers => {
                             teamMembers.push(new Engineer(engineerAnswers.name, engineerAnswers.id, engineerAnswers.email, engineerAnswers.github));
-                            console.log(teamMembers);
                             employeeMenu();
                         })
                     break;
                 case "intern":
+                    console.log("Enter the Intern's information");
                     InternQuestion()
                         .then(internAnswers => {
                             teamMembers.push(new Intern(internAnswers.name, internAnswers.id, internAnswers.email, internAnswers.school));
-                            console.log(teamMembers);
                             employeeMenu();
                         })
                     break;
