@@ -1,6 +1,8 @@
 # Team Manager
 ## Creates html documents with inputted team member information 
 
+![image](https://user-images.githubusercontent.com/36345799/123713441-0b0c7280-d83a-11eb-97d3-a4b7c85d8ff0.png)
+
 ## Table of Contents 
 [installation](#installation)
  
